@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.container {
+    min-height: 85vh;
+    width: 100%;
+    background: url(./Background\ Hero.svg);
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+header {
+    width: 68%;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    background-color: black;
+    opacity: 0.9;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(201 253 2);
+
+}
+
+.admin {
+    color: white;
+}
+
+.topic {
+    color: white;
+    font-size: 55px;
+    font-weight: lighter;
+
+}
+
+.navcontent {
+    padding: 60px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content {
+    color: rgb(60, 73, 75);
+    font-weight: 400;
+}
+
+.getstart {
+    height: 60px;
+    width: 150px;
+    background-color: rgb(255, 214, 6);
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+@media screen and (min-width:300px) and (max-width:900px) {
+    .topic {
+        font-size: 35px;
+        padding-top: 25px;
+    }
+
+    .navcontent {
+        /* padding-top: 10px; */
+        width: 95%;
+        font-size: 15px;
+        padding: 0;
+        min-height: 60vh;
+    }
+
+    header {
+        width: 100%;
+        border-radius: 0;
+        padding: 10px;
+    }
+
+    .container {
+        padding: 0;
+        min-height: 80vh;
+    }
+
+}
+
+@media screen and (min-width:901px) and (max-width:1200px) {
+    .topic {
+        font-size: 59px;
+        padding-top: 25px;
+
+    }
+
+    .navcontent {
+        padding-top: 10px;
+        width: 90%;
+    }
+
+    header {
+        width: 80%;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .container {
+        padding-top: 20px;
+        min-height: 80vh;
+    }
+
+}

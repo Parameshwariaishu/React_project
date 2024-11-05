@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.craftcontainer {
+    min-height: 90vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.opensource {
+    color: rgb(122, 189, 237);
+    font-weight: 700;
+}
+
+.craftheading {
+    color: white;
+    width: 40%;
+    font-size: 45px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.craftdiv {
+    width: 85%;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+.para {
+    font-weight: 300;
+    padding-top: 10px;
+    color: azure;
+}
+
+.chartpic {
+    width: 100%;
+    height: auto;
+}
+
+.box {
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.iconpic {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 60px;
+}
+
+.icondiv {
+    width: 70%;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pic2 {
+    width: 40px;
+}
+
+.pic3 {
+    width: 40px;
+}
+
+.pic4 {
+    width: 40px;
+}
+
+@media screen and (min-width:300px) and (max-width:1000px) {
+    .craftheading {
+        width: 95%;
+        font-size: 30px;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .opensource {
+        text-align: center;
+    }
+
+    .box {
+        width: 100%;
+        min-height: 60vh;
+    }
+
+    .craftdiv {
+        width: 95%;
+        padding: 5px;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .iconpic {
+        min-height: 55vh;
+    }
+
+    .icondiv {
+        width: 100%;
+        min-height: 55vh;
+    }
+
+    .box {
+        width: 100%;
+        min-height: 65vh;
+        align-items: start;
+    }
+
+    .certficate {
+        font-size: 17px;
+    }
+
+    .craftcontainer {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (min-width:1001px) and (max-width:1200px) {
+    .craftheading {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
